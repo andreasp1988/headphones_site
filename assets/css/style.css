@@ -266,7 +266,7 @@ video {
     margin-left: 72%;
 }
 .price div h1 {
-    margin: 0 0 0 -15%;
+    margin: 0 0 0 -5%;
     width: 60%;
 }
 .price div p:nth-of-type(2) {
@@ -279,3 +279,21 @@ video {
     background: #ebccc2 ;
     padding: 1px 30px ;
 }
+
+/* NEWSLETTER */
+
+.newsletter {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clickMe {
+    border: 1px solid  #ebccc2;
+    margin: 2%  0  0;
+    padding: 1% 5%;
+    background:rgb(115, 115, 115);
+}
+
