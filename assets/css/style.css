@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+body {
+    background: #2e2e2e;
+    color: #ebccc2;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+}
+a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+header img {
+    position: fixed;
+    margin: 4%;
+    top: -30px;
+}
+.navBar, .list {
+    display: flex;
+    justify-content: flex-end;
+    width: 94%;
+    list-style: none;
+    margin: 2% 2%;
+    position: fixed;
+    align-items: baseline;
+    top: 0px;
+}
+.list li {
+    font-size: 1rem;
+    padding-right: 1%;
+}
+.list li:nth-of-type(2) {
+    padding-left: 5%;
+}
+.list li:nth-of-type(4) {
+    padding-right: 5%;
+}
+.list a {
+    text-decoration: none;
+    color: #ebccc2;
+    font-size: .8rem;
+}
+header h1 {
+    margin: 5% auto 0 30%;
+    align-items: center;
+    width: 30%;
+    font-size: 2.5rem;
+}
+.sideBar {
+    position: fixed;
+    margin: 15% 0 0 2%;
+    left: 1px;
+    top: -62px;
+    width: 20%;
+}
+.sideBar ul {
+    list-style: circle;
+    font-size: 2rem;
+    display: inline-block;
+    color: rgb(115, 115, 115) ;
+    width: 20%;
+    position: relative;
+}
+.sideBar a:hover, .list a:hover {
+    color: #fff;
+    transition: all 0.3s linear;
+}
+.sideBar a {
+    font-size: 1rem;
+    position: relative;
+    bottom: 5px;
+    left: 6px;
+    display: inline-block;
+    color: rgb(115, 115, 115) ;
+    text-decoration: none;
+}
+.sideBar li {
+    margin-bottom: 87%;
+}
+.dash {
+     border-left: 1px solid rgb(115, 115, 115) ;
+     height: 40px;
+    position: relative;
+     top: -485px;
+     left: 17px;
+     margin-top: 17%;
+}
+.main {
+    background: url(../img/section-about-1.jpg);
+    min-height: 150vh;
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+    margin: 10% auto 0 5%;
+}
+.design {
+    background: url(../img/BS1_NYC_Home.webp) center / cover no-repeat;
+    background-size: 70vh;
+    background-position: 25%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.alchemy h1, .alchemy2 h1 {
+    width: 78%;
+    margin: 0;
+}
+.alchemy {
+    width: 33%;
+    line-height: 30px;
+    margin-right: 11%;
+    margin-top: 15%;
+}
+.alchemy p, .alchemy2 p, .alchemy3  p, .price p  {
+   color: rgb(115, 115, 115) ;
+    
+}
+
+/* LOUNGER */
+
+.lounger {
+    background: url(../img/section-voyager.jpg) center / cover no-repeat;
+    min-height: 100vh;
+    width: 55%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.loungerArticle {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.loungerArticle h1 {
+    width: 82%;
+    margin: -12% 0 15% 0  ;  
+    color: #ebccc2;
+}
+.loungerArticle div {
+    width: 32%;
+    line-height: 25px;
+    margin-right: 8%;
+    margin-top: 15%;
+    color:rgb(115, 115, 115);
+}
+.activeLink::before {
+    content: "";
+    border: 2px solid white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -35%;
+    margin-top: 8%;
+    display: inline-block;
+}
+
+.activeLink a {
+    color: white;
+}
+
+/* SOUNDS */
+
+.sounds {
+    background: url(../img/section-experience-1.jpg) center / cover no-repeat;
+    min-height: 100vh;
+    width: 55%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+video {
+    margin: 0 auto;
+    text-align:  center;
+    display: block;
+}
+.form h1, .form h3{
+    margin: 1%  11%;
+    
+}
+.click {
+    display: flex;
+    margin: 3% 11% 0;
+}
+.click div {
+   padding: 2px 10px;
+   border: 1px solid #fff;
+   margin: 0 2px;
+   color: rgb(115, 115, 115);
+   border-radius: 5%;
+}
+.form p {
+    margin: 1% 11%;
+    color: rgb(115, 115, 115);
+}
+.design2  {
+    background: url(../img/ETC_6.webp) center / cover no-repeat;
+    background-size: 70vh;
+    background-position: 25%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.alchemy2 h1 {
+    width: 84%;
+    margin: 0;
+}
+
+.alchemy2 h4{
+    width: 84%;
+    margin: 35% 0 9%;
+}
+.alchemy2   {
+    width: 33%;
+    line-height: 30px;
+    margin-right: 12%;
+    padding-bottom: 5%;
+}
+.design3  {
+    background: url(../img/ETC_5.webp) center / cover no-repeat;
+    background-size: 70vh;
+    background-position: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.alchemy2 h1, .alchemy3 h1 {
+    width: 84%;
+    margin: 1% 0 2%;
+}
+.alchemy3  {
+    width: 35%;
+    line-height: 30px;
+    margin-left: 16%;
+    padding-bottom: 15%;
+}
+.alchemy3 h4{
+    width: 84%;
+    padding-bottom: 1%;
+}
+
+/* SHOP */
+
+.shop {
+    background: url(../img/section-composition4.jpg) center / cover no-repeat;
+    min-height: 100vh;
+    width: 55%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+.headphones img  {
+    margin-left: 58%;
+    margin-top: 5%;
+}
+.price div {
+    margin-left: 72%;
+}
+.price div h1 {
+    margin: 0 0 0 -15%;
+    width: 60%;
+}
+.price div p:nth-of-type(2) {
+    margin: 0 6% 2%;
+}
+.price a {
+    text-decoration: none;
+    color: #2e2e2e;
+    border: 1px solid #fff;
+    background: #ebccc2 ;
+    padding: 1px 30px ;
+}
